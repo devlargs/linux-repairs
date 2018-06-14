@@ -2,12 +2,14 @@
 Linux Repairs
 
 ## Usage
-Important: Run chmod a+x (*name of file*) to make it executable.
+```
+Open Terminal
+git clone git@github.com:devlargs/linux-repairs.git
+cd linux repairs
+chmod a+x run.sh && ./run.sh
+```
 
-```
-Example: 
-chmod a+x mongo.sh
-```
+All set and done!
 
 ### could-not-get-lock.sh
 ```
