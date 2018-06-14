@@ -11,6 +11,18 @@ chmod a+x run.sh && ./run.sh
 
 All set and done!
 
+### autotype.sh
+
+This script that is dependent on xdotool. This allows you to fake type on keyboard based on a given interval. Follow this simple steps.
+
+```
+First Install xdotool: https://github.com/jordansissel/xdotool
+```
+Run on terminal
+```
+./autotype.sh
+```
+
 ### could-not-get-lock.sh
 ```
 E: Could not get lock /var/lib/dpkg/lock - open (11 Resource temporarily unavailable)
@@ -20,6 +32,19 @@ Run on terminal
 ```
 ./could-not-get-lock.sh
 ```
+
+### enospc.sh
+When you recieve an ENOSPC
+```
+ENOSPC means that there is no space on the drive.
+
+Perhaps /tmp is full? You can configure npm to use a different temp folder by setting npm config set tmp /path/to/some/other/dir, or maybe delete everything out of the /tmp folder.
+```
+Just run
+```
+./enospc.sh
+```
+
 ### mongo.sh
 ```
 Warning { MongoError: failed to connect to server [mongodb:27017] on first connect
@@ -45,25 +70,6 @@ Run on terminal
 ./mongo.sh
 ```
 
-### autotype.sh
-
-This script that is dependent on xdotool. This allows you to fake type on keyboard based on a given interval. Follow this simple steps.
-
-```
-First Install xdotool: https://github.com/jordansissel/xdotool
-```
-Run on terminal
-```
-./autotype.sh
-```
-
-### update.sh
-This script bypass the terminal from preventing you to update.
-
-```
-./update.sh
-```
-
 ### watchman.sh
 This script clears errors upon running react native app
 ```
@@ -78,7 +84,14 @@ Just run
 ./watchman.sh
 ```
 
-Help me build my site! Please donate. Cheers :) 
+### update.sh
+This script bypass the terminal from preventing you to update.
+
+```
+./update.sh
+```
+
+### Help me build my site! Please donate. Cheers :) 
 
 ```
 ETH: 0xbF3BdcE331D92de30fBD896DF67517C8fBB6C44f
