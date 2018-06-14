@@ -17,7 +17,6 @@ setInterval() {
 }
 
 dowork() {
-	
 	echo -n 'doing work... '
 	xdotool key space
 	#sleep 2
@@ -26,4 +25,3 @@ dowork() {
 
 echo "starting loop, will sleep 5 seconds between iterations"
 setInterval dowork 1
- 
